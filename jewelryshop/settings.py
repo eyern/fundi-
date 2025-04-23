@@ -140,7 +140,7 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'jewelryshop/static')]
 
 # Settings for Media
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, '/app/data')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
