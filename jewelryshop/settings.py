@@ -136,7 +136,7 @@ STATIC_ROOT = BASE_DIR / 'staticfiles' # Automatically Created on Production
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'jewelryshop/static')]
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 
 # Settings for Media
 MEDIA_URL = '/media/'
