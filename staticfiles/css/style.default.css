@@ -582,7 +582,7 @@ a.text-hover-info:focus, a.text-hover-info:hover {
 }
 
 .text-hover-warning:focus, .text-hover-warning:hover {
-  color: #ffc107 !important;
+  color: #34AAFF !important;
 }
 
 a.text-hover-warning {
@@ -590,7 +590,7 @@ a.text-hover-warning {
 }
 
 a.text-hover-warning:focus, a.text-hover-warning:hover {
-  color: #ffc107 !important;
+  color: #34AAFF !important;
 }
 
 .bg-warning-light {
@@ -598,7 +598,7 @@ a.text-hover-warning:focus, a.text-hover-warning:hover {
 }
 
 .border-warning {
-  border-color: #ffc107 !important;
+  border-color: #34AAFF !important;
 }
 
 .text-hover-danger {
@@ -766,7 +766,7 @@ a.text-hover-dark:focus, a.text-hover-dark:hover {
 }
 
 .badge-warning-light {
-  color: #ffc107;
+  color: #34AAFF;
   background-color: #fff8e1;
 }
 
@@ -1767,8 +1767,8 @@ STYLE SWITCHER FOR DEMO
 
 .btn-warning {
   color: #212529;
-  background-color: #ffc107;
-  border-color: #ffc107;
+  background-color: #34AAFF;
+  border-color: #34AAFF;
 }
 
 .btn-warning:hover {
@@ -1784,8 +1784,8 @@ STYLE SWITCHER FOR DEMO
 
 .btn-warning.disabled, .btn-warning:disabled {
   color: #212529;
-  background-color: #ffc107;
-  border-color: #ffc107;
+  background-color: #34AAFF;
+  border-color: #34AAFF;
 }
 
 .btn-warning:not(:disabled):not(.disabled):active, .btn-warning:not(:disabled):not(.disabled).active,
@@ -2086,16 +2086,16 @@ STYLE SWITCHER FOR DEMO
 }
 
 .btn-outline-warning {
-  color: #ffc107;
+  color: #34AAFF;
   background-color: transparent;
   background-image: none;
-  border-color: #ffc107;
+  border-color: #34AAFF;
 }
 
 .btn-outline-warning:hover {
   color: #fff;
-  background-color: #ffc107;
-  border-color: #ffc107;
+  background-color: #34AAFF;
+  border-color: #34AAFF;
 }
 
 .btn-outline-warning:focus, .btn-outline-warning.focus {
@@ -2104,15 +2104,15 @@ STYLE SWITCHER FOR DEMO
 }
 
 .btn-outline-warning.disabled, .btn-outline-warning:disabled {
-  color: #ffc107;
+  color: #34AAFF;
   background-color: transparent;
 }
 
 .btn-outline-warning:not(:disabled):not(.disabled):active, .btn-outline-warning:not(:disabled):not(.disabled).active,
 .show > .btn-outline-warning.dropdown-toggle {
   color: #212529;
-  background-color: #ffc107;
-  border-color: #ffc107;
+  background-color: #34AAFF;
+  border-color: #34AAFF;
 }
 
 .btn-outline-warning:not(:disabled):not(.disabled):active:focus, .btn-outline-warning:not(:disabled):not(.disabled).active:focus,
@@ -2122,7 +2122,7 @@ STYLE SWITCHER FOR DEMO
 
 .btn-outline-warning:focus {
   color: #fff;
-  background: #ffc107;
+  background: #34AAFF;
   text-decoration: none;
 }
 
@@ -2281,7 +2281,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: #b68b23;
+  color: #34AAFF;
   text-decoration: underline;
 }
 
@@ -2301,7 +2301,7 @@ h6,
   font-family: inherit;
   font-weight: 900;
   line-height: 1.2;
-  color: inherit;
+  color: #34AAFF;
 }
 
 h1,
@@ -2530,7 +2530,7 @@ button.bg-info:focus {
 }
 
 .bg-warning {
-  background-color: #ffc107 !important;
+  background-color: #34AAFF !important;
 }
 
 a.bg-warning:hover, a.bg-warning:focus,
@@ -2586,7 +2586,7 @@ button.bg-dark:focus {
 }
 
 .border-warning {
-  border-color: #ffc107 !important;
+  border-color: #34AAFF !important;
 }
 
 .border-danger {
@@ -2634,7 +2634,7 @@ a.text-info:hover, a.text-info:focus {
 }
 
 .text-warning {
-  color: #ffc107 !important;
+  color: #34AAFF !important;
 }
 
 a.text-warning:hover, a.text-warning:focus {
@@ -2731,7 +2731,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .badge-warning {
   color: #212529;
-  background-color: #ffc107;
+  background-color: #34AAFF;
   text-transform: uppercase;
   letter-spacing: 0.07em;
   border-radius: 0;
