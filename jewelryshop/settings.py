@@ -20,7 +20,7 @@ SECRET_KEY = 'django-insecure-3%y3laftm62q0zaj+s7#p-xqq9(&#q+)s8)p-&#&bz*0$!xu$0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['fundi-production.up.railway.app','https://fundi-production.up.railway.app']
+ALLOWED_HOSTS = ['127.0.0.1','fundi-production.up.railway.app','https://fundi-production.up.railway.app']
 
 CSRF_TRUSTED_ORIGINS = ['https://fundi-production.up.railway.app']
 
