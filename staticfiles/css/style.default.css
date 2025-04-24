@@ -1484,7 +1484,7 @@ STYLE SWITCHER FOR DEMO
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #34AAFF;
+  color: #000;
   font-weight: 800;
   font-size: 0.95rem;
   transition: all 0.3s;
@@ -1495,7 +1495,7 @@ STYLE SWITCHER FOR DEMO
 }
 
 .navbar-light .navbar-nav .nav-link.disabled {
-  color: #34AAFF;
+  color: #000;
 }
 
 .navbar-light .navbar-nav .show > .nav-link,
