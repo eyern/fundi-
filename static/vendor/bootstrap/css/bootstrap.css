@@ -10107,7 +10107,11 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-muted {
-  color: #fff !important;
+  color: #0056b3 !important;
+}
+
+.text-muted-price {
+  color: #0056b3 !important;
 }
 
 .text-black-50 {
