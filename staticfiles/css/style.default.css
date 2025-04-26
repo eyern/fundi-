@@ -301,6 +301,12 @@ button:focus, button:active {
   letter-spacing: 0.1em;
 }
 
+.text-uppercase-intro {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #fff;
+}
+
 .text-sm {
   font-size: 0.875rem;
 }
