@@ -3629,7 +3629,7 @@
     margin-top: 0px;
     margin-bottom: 10px;
     font-size: 12px;
-    font-weight: 700;
+    font-weight: 300;
     line-height: 15px;
     letter-spacing: 1px;
     text-transform: camelcase;
@@ -3809,7 +3809,7 @@
     margin-top: 0px;
     font-family: Quicksand;
     color: #1b84b7;
-    font-size: 120px;
+    font-size: 90px;
     line-height: 50px;
     text-align: center;
   }
