@@ -5,17 +5,17 @@
 
       <!-- HERO SECTION-->
       <div class="container">
-        <section class="hero pb-3 bg-cover bg-center d-flex align-items-center" style="background: url({% static 'img/hero-bg.jpg' %})">
-          <div class="div-block-75">
-            <h1 class="heading"><span class="text-span-5">Best </span>Solution <span>For Every
-                House Problem</span></h1><br>
-            <div class="text-block" id="home">We provide professional electrical and handy-man services to home owners in
-              Kenya at
-              affordable prices</div>
-              <p><a href="https://wa.link/zknmxk" class="btn btn-primary py-3 px-4">Book Service </a> 
-                <a href="{% url 'store:all-categories' %}" class="btn btn-white btn-outline-white py-3 px-4">Shop</a></p>
+        <!-- ======= Hero Section ======= -->
+        <section id="hero">
+          <div class="hero-container" data-aos="fade-up" data-aos-delay="150">
+            <h1>Best Solution For Every House Problem</h1>
+            <h2>We provide professional electrical and handy-man services to home owners in Kenya at affordable prices.</h2>
+            <div class="d-flex">
+              <a href="#about" class="btn-get-started scrollto">Book Appointment</a>
+            </div>
           </div>
         </section>
+        <!-- End Hero -->
         <div class="div-block-132">
           <div class="div-block-131">
             <div class="w-layout-grid grid-11">
@@ -46,84 +46,71 @@
             </div>
           </div>
         </div>
-        <div class="about-section main-page why-us wf-section">
-          <div class="div-block-125">
-            <div class="div-block-127">
-              <div>
-                <div class="text-block-26">Quality Work and Competitive Prices</div>
-                <br>
-                <h1 class="heading-28">OUR SERVICES</h1>
-              </div>
-            </div>
-            <div class="w-layout-grid grid-10" id="service">
-              <div id="w-node-d6bd1482-bf5e-ee8f-f2ea-62540e4134d1-44fb1a39" class="div-block-128">
-                <div class="div-block-129">
-                  <div>
-                    <h3 class="heading-29">Interior</h3>
-                    <div class="text-block-28">Space Planning, Lighting Design, Material Selection, Furniture and Furnishings,
-                      Color Schemes, Kitchen and Bathroom Design, Renovation and Remodeling, Interior Styling
-                    </div>
-                  </div>
-                </div>
-                <div class="div-block-130"><img src="{% static 'img/work-4.jpg' %}" loading="lazy"
-                    sizes="(max-width: 479px) 100vw, (max-width: 767px) 87vw, (max-width: 991px) 88vw, 38vw"
-                    srcset="{% static 'img/work-4.jpg' %}" alt="Handyman Services" class="image-20"></div>
-              </div>
-              <div id="w-node-_5e6163ed-1e93-51d7-348c-8d1d53086c1b-44fb1a39" class="div-block-128">
-                <div class="div-block-129">
-                  <div class="div-block-145">
-                    <h3 class="heading-29">House & Office Renovation</h3>
-                    <div class="text-block-28">We're your Go-To Experts for all Home And Office improvements. Painting And
-                      Repairs To Cleaning and Installations</div>
-                  </div>
-                </div>
-                <div class="div-block-130"><img src="{% static 'img/work-1.jpg' %}" loading="lazy" alt="" class="image-20"></div>
-              </div>
-              <div id="w-node-d6bd1482-bf5e-ee8f-f2ea-62540e4134d1-44fb1a39" class="div-block-128">
-                <div class="div-block-129">
-                  <div>
-                    <h3 class="heading-29">Installations</h3>
-                    <div class="text-block-28">CCTV Installations, Tv Mounting, Electrical, Alarm Systems, Dry Wall Mounting
-                    </div>
-                  </div>
-                </div>
-                <div class="div-block-130"><img src="{% static 'img/work-2.jpg' %}" loading="lazy"
-                    sizes="(max-width: 479px) 100vw, (max-width: 767px) 87vw, (max-width: 991px) 88vw, 38vw"
-                    srcset="{% static 'img/work-2.jpg' %}" alt="Handyman Services" class="image-20"></div>
-              </div>
-              <div id="w-node-_8ff660da-82be-3132-16fe-2916b44c9595-44fb1a39" class="div-block-128">
-                <div class="div-block-129">
-                  <div>
-                    <h3 class="heading-29">Carpentry & Plumbing</h3>
-                    <div class="text-block-28">Toilet Repair, Drain Cleaning, Plumbing Installations, Capentry Services.</div>
-                  </div>
-                </div>
-                <div class="div-block-130"><img src="{% static 'img/work-3.jpg' %}" loading="lazy"
-                    sizes="(max-width: 479px) 100vw, (max-width: 767px) 87vw, (max-width: 991px) 88vw, 38vw"
-                    srcset="{% static 'img/work-3.jpg' %}" alt="Handyman Services"
-                    class="image-20">
-                </div>
-              </div>
-              <div id="w-node-_8ff660da-82be-3132-16fe-2916b44c9595-44fb1a39" class="div-block-128">
-                <div class="div-block-129">
-                  <div>
-                    <h3 class="heading-29">Kitchen Appliances Repair</h3>
-                    <div class="text-block-28">Fundi also offers Kitchen Appliances Repair Services in Nairobi Kenya. Washing
-                      machines, Fridge, Cooker, Oven, Dishwasher, Tumble Dryer, Freezer repair services etc.</div>
-                  </div>
-                </div>
-                <div class="div-block-130"><img src="{% static 'img/work-5.jpg' %}" loading="lazy"
-                    sizes="(max-width: 479px) 100vw, (max-width: 767px) 87vw, (max-width: 991px) 88vw, 38vw"
-                    srcset="{% static 'img/work-5.jpg' %}" alt="Handyman Services"
-                    class="image-20">
-                </div>
+        <!-- ======= About Boxes Section ======= -->
+        <br><br>
+        <div class="section-title">
+          <h2>OUR SERVICES</h2>
+          <p>Quality Work and Competitive Prices</p>
+        </div>
+    <section id="about-boxes" class="about-boxes">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="card">
+              <img src="{% static 'img/work-4.jpg' %}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Interior</a></h5>
+                <p class="card-text">Space Planning, Lighting Design, Material Selection, Furniture and Furnishings, Color Schemes, Kitchen and Bathroom Design, Renovation and Remodeling, Interior Styling.</p>
               </div>
             </div>
           </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="card">
+              <img src="{% static 'img/work-1.jpg' %}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a href="">House & Office Renovation</a></h5>
+                <p class="card-text">We're your Go-To Experts for all Home And Office improvements. Painting And Repairs To Cleaning and Installations.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="card">
+              <img src="{% static 'img/work-5.jpg' %}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Kitchen Appliances Repair</a></h5>
+                <p class="card-text">Fundi also offers Kitchen Appliances Repair Services in Nairobi Kenya. Washing machines, Fridge, Cooker, Oven, Dishwasher, Tumble Dryer, Freezer repair services etc.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="card">
+              <img src="{% static 'img/work-2.jpg' %}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Installations</a></h5>
+                <p class="card-text">CCTV Installations, Tv Mounting, Electrical, Alarm Systems, Dry Wall Mounting</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="card">
+              <img src="{% static 'img/work-3.jpg' %}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Carpentry & Plumbing</a></h5>
+                <p class="card-text">Toilet Repair, Drain Cleaning, Plumbing Installations, Capentry Services.</p>
+              </div>
+            </div>
+          </div>
+          
+          
         </div>
+
+      </div>
+    </section><!-- End About Boxes Section -->
         
         <div class="partners-section">
-          <h1>Our Partners</h1>
+          <h1>Partners</h1>
           <div class="slider">
             <div class="slider-items">
               <img src="{% static 'img/brands/b1.png' %}" alt="Handyman Services">
